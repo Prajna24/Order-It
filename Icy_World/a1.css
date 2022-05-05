@@ -1,0 +1,21 @@
+body {
+    background-color: #EDEDED;
+}
+#weltxt {
+    /* background-color: #003638; */
+    /* color: antiquewhite; */
+    font-family: 'MonteCarlo', cursive;
+    text-align: center;
+}
+/* tr{
+    background-color: maroon;
+    color: white;
+    text-align: center;
+} */
+dt{
+    font-weight: bold;
+    background-color: maroon;
+    color: white;
+}
+
+/* antiquewhite */

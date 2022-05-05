@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Icy World</title>
+    <link rel="stylesheet" href="a1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="/images/fav.ico">
+    <script src="a1.js"></script>
+</head>
+<body>
+    <div>
+        <font size="6">
+            <table width="800" border="3" cellspacing="4" cellpadding="4" align="center"id="orderform">
+                <tr>
+                    <td>
+                        <img src="/images/ic1.jpg" alt="stick images" height="500" width="400">
+                    </td>
+                    <td id="weltxt">
+                        <p>ICY WORLD</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Customer Details</td>
+                </tr>
+                <tr>
+                    <td>Customer Name</td>
+                    <td><input type="text" id="txtName"></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type="text" id="txtmobile"></td>
+                </tr>
+                <tr>
+                    <td>Select Your choice</td>
+                </tr>
+                <tr> 
+                    <td>
+                        <img src="/images/ic2.jpg" alt="cone" height="400" width="400">
+                        <br>
+                        <input type="radio" name="dessert" id="optcone" value="cone">Cone
+                            <h4 align="center">Flavors</h4>
+                            <font size="5">
+                                <ul id="flavor">
+                                    <input type="checkbox" id="f1" value="Berry Vanilla">Berry Vanilla &nbsp; <font size="4">(&#8377;75) </font><br>
+                                    <input type="checkbox" id="f2" value="Butterscotch">Butterscotch &nbsp; <font size="4">(&#8377;95)</font><br>
+                                    <input type="checkbox" id="f3" value="Maple Walnut">Maple Walnut &nbsp;<font size="4">(&#8377;105)</font><br>
+                                    <input type="checkbox" id="f4" value="Belgian Chocolate">Belgian Chocolate &nbsp; <font size="4">(&#8377;120)</font><br>
+                                    <input type="checkbox" id="f5" value="Caribbean almond">Caribbean almond &nbsp;<font size="4">(&#8377;115)</font><br>
+                                    <input type="checkbox" id="f6" value="Red velvet">Red velvet &nbsp; <font size="4">(&#8377;120)</font><br>
+                                    <input type="checkbox" id="f7" value="Blackcurrent">Blackcurrent &nbsp;<font size="4">(&#8377;90)</font><br>
+                                </ul>
+                            </font>
+                            <h4 align="center">Toppings</h4>
+                            <font size="5">
+                                <ul id="toppings">
+                                    <input type="checkbox" id="t1" value="Crunchy Salted Caramel">Crunchy Salted Caramel &nbsp; <font size="4">(&#8377;25) </font><br>
+                                    <input type="checkbox" id="t2" value="Nutty Nutella Crunch">Nutty Nutella Crunch &nbsp; <font size="4">(&#8377;25)</font><br>
+                                    <input type="checkbox" id="t3" value="Frozen Fluffernutter">Frozen Fluffernutter &nbsp;<font size="4">(&#8377;25)</font><br>
+                                    <input type="checkbox" id="t4" value="Toasted & Tropical">Toasted & Tropical &nbsp; <font size="4">(&#8377;20)</font><br>
+                                    <input type="checkbox" id="t5" value="Cinnamon Cone Crunch">Cinnamon Cone Crunch &nbsp;<font size="4">(&#8377;20)</font><br>
+                                    <input type="checkbox" id="t6" value="Peanut Butter & Choco Chips">Peanut Butter & Choco Chips &nbsp; <font size="4">(&#8377;25)</font><br>
+                                </ul>
+                            </font>
+                        </td>
+                    <td>
+                        <img src="/images/ic3.jpg" alt="Cup" height="400" width="400">
+                        <br>
+                        <input type="radio" name="dessert1" id="optcup" value="cup">Cup
+                        <h4 align="center">Flavors</h4>
+                        <font size="5"> 
+                            <ul id="flavor">
+                                <input type="checkbox" id="fc1" value="Berry Vanilla">Berry Vanilla &nbsp; <font size="4">(&#8377;65) </font><br>
+                                <input type="checkbox" id="fc2" value="Butterscotch">Butterscotch &nbsp; <font size="4">(&#8377;75)</font><br>
+                                <input type="checkbox" id="fc3" value="Maple Walnut">Maple Walnut &nbsp;<font size="4">(&#8377;90)</font><br>
+                                <input type="checkbox" id="fc4" value="Belgian Chocolate">Belgian Chocolate &nbsp; <font size="4">(&#8377;100)</font><br>
+                                <input type="checkbox" id="fc5" value="Caribbean almond">Caribbean almond &nbsp;<font size="4">(&#8377;95)</font><br>
+                                <input type="checkbox" id="fc6" value="Red velvet">Red velvet &nbsp; <font size="4">(&#8377;100)</font><br>
+                                <input type="checkbox" id="fc7" value="Blackcurrent">Blackcurrent &nbsp;<font size="4">(&#8377;85)</font><br>
+                            </ul>
+                        </font>
+                        <h4 align="center">Toppings</h4>
+                        <font size="5">
+                            <ul id="toppings">
+                                <input type="checkbox" id="tp1" value="Crunchy Salted Caramel">Crunchy Salted Caramel &nbsp; <font size="4">(&#8377;25) </font><br>
+                                <input type="checkbox" id="tp2" value="Nutty Nutella Crunch">Nutty Nutella Crunch &nbsp; <font size="4">(&#8377;25)</font><br>
+                                <input type="checkbox" id="tp3" value="Frozen Fluffernutter">Frozen Fluffernutter &nbsp;<font size="4">(&#8377;25)</font><br>
+                                <input type="checkbox" id="tp4" value="Toasted & Tropical">Toasted & Tropical &nbsp; <font size="4">(&#8377;20)</font><br>
+                                <input type="checkbox" id="tp5" value="Cinnamon Cone Crunch">Cinnamon Cone Crunch &nbsp;<font size="4">(&#8377;20)</font><br>
+                                <input type="checkbox" id="tp6" value="Peanut Butter & Choco Chips">Peanut Butter & Choco Chips &nbsp; <font size="4">(&#8377;25)</font><br>
+                            </ul>
+                        </font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/images/ic4.jpg" alt="Brownie" height="400" width="400">
+                        <br> <br>
+                        <input type="radio" name="dessert2" id="optbrownie" value="chocobrownie">Brownie (&#8377;125)
+                    </td>
+                    <td>
+                        <img src="/images/ic5.jpg" alt="ChocoBomb" height="400" width="400">
+                        <br> <br>
+                        <input type="radio" name="dessert3" id="optchoco" value="chocobomb">Hot Chocolate Bomb (&#8377;115)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        select Ad-on's
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/images/ic6.jpg" alt="Red velvet" height="400" width="400">
+                        <br> <br>
+                        <input type="checkbox" id="optred" value="Red Velvet">Red Velvet (&#8377;65/1pc)
+                    </td>
+                    <td>
+                        <img src="/images/ic7.jpg" alt="Black Forest" height="400" width="400">
+                        <br> <br>
+                        <input type="checkbox" id="optblack" value="Black Forest">Black Forest (&#8377;60/1pc)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="place order" onclick="placeOrder()">
+                    </td>
+                </tr>
+            </table> 
+            <br>
+            <dl id="order summary" style="display: none;">
+                <h2>Order Summary</h2>
+                <dt>Customer Name</dt>
+                <dd id="lblName"></dd>
+                <dt>Mobile</dt>
+                <dd id="lblMobile"></dd>
+                <dt>Dessert</dt>
+                <dd id="lblDessert"></dd>
+                <dt>AD-on's</dt>
+                <dd id="lbladd"></dd>
+                <dt>Total Bill Amount</dt>
+                <dd id="lblAmount"></dd>
+                <br>
+                <input type="button" value="Print Bill" onclick="window.print()">
+            </dl>
+    </div>
+</body>
+</html>
